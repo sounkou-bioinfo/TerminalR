@@ -1,0 +1,17 @@
+# Load the shared object
+useDynLib(TerminalR,
+	nc_init, nc_initscr, nc_endwin,
+	nc_col_attr, nc_setcolor,
+	nc_getmaxyx, nc_wmove, nc_wprintw,
+	nc_getch, nc_refresh, nc_erase, nc_get_used,
+	nc_setscrollok,
+	
+	nc_setint, nc_setlogical, nc_setreal, nc_setlist
+)
+
+# Export function names
+exportPattern("^[^\\.]")
+export(.onAttach)
+
+# Imports
+import(methods)
