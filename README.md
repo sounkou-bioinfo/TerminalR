@@ -64,3 +64,7 @@ text_editor <- function() {
 library(TerminalR)
 text_editor()
 ```
+
+# Similar Projects
+
+- [rcurses](https://github.com/matloff/rcurses)
