@@ -1,0 +1,2 @@
+PKG_CFLAGS = $(shell ncurses5-config --cflags)
+PKG_LIBS = $(shell ncurses5-config --libs)

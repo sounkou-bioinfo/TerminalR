@@ -1,7 +1,7 @@
 Package: TerminalR
 Type: Package
 Title: R Interface to the ncurses library for terminal user interfaces
-Version: 0.1.0
+Version: 0.1.1
 Date: 2016-12-21
 Depends: R (>= 2.6.0)
 Imports: methods
@@ -9,5 +9,6 @@ Suggests: knitr
 Authors@R: c(person("Xiuwen", "Zheng", role=c("aut", "cre"),
     email="zhengxwen@gmail.com"))
 Description: R Interface to the ncurses library for text-based user interfaces
+SystemRequirements: libncurses5-dev, GNU make
 License: GPL-3
 VignetteBuilder: knitr
